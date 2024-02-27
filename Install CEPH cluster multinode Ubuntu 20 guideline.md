@@ -156,6 +156,7 @@ On ceph-admin node:
 Bootstrap is successful, the terminal will return the path and information about the account and password for the user to log in to the newly created Ceph Dashboard.
 <img src="Image/ceph_dashboard.jpg">
 **3. Enable Ceph CLI**
+
 There are several ways to access Ceph CLI.
 The first way to use the CEPH CLI command, users can use the cephadm command, for example:
 ```
