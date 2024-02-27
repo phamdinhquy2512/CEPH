@@ -53,7 +53,7 @@ Before adding a monitor and 2 OSD nodes for storage purposes, it is necessary to
 ```
 # lvmdiskscan
 ```
-<img src="Image/lvmdiskscan.jpg">
+<img src="Image/lvmdiskscan.jpg" width="500" height="500">
 
 - Umount sda1:
 ```
@@ -263,7 +263,9 @@ disk01 avaiable in pool1:
 Ceph block device is available in the client's disk filesystem:
 <img src="Image/mydisk.png">
 In the server, the newly created images can be used to store data on the server as usual:
-<img src="Image/image_server.jpg">
+
+<img src="Image/image_server.jpg" width="300" height="50">
+
 In CEPH's interface, you can see the images that have been created and are managed by Ceph:
 <img src="Image/image_dashboard.jpg">
 
